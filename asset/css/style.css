@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+ 
+}
+.clear{
+    clear: both;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom:70px;
+    width: 100%;
+}
+ul{ list-style-type: none;}
+h2{
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #292f36;
+    font-size:38px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+ul li{display: inline-block;}
+a{text-decoration: none;}
+p{font-size:20px;}
+/***************Start Nav*****************/
+nav{
+    height: 75PX;
+    background-color: #1d2126;
+}
+
+nav .logo{ float: left;}
+#list { float: right;}
+
+nav ul li a{
+    margin-left: 35px;
+    color: #5c6365;
+    font-size: 17px;
+    line-height: 45px;
+    padding: 5px;
+    transition-duration: .4s
+}
+nav ul li a :first-child{
+    margin-left:0;
+}
+nav ul li a:hover{
+    border:1px solid #23b7a4;
+    color:#23b7a4;
+    transition-duration: .4s
+}
+#list .active{
+    color:#23b7a4;
+    border:1px solid #23b7a4;;
+}
+/********************End Nav********************/
+/**Start heroSection**/
+.heroSection{
+    background-image: url('../images/slide.png');
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 215px 168px;
+    box-sizing: border-box;
+}
+.heroContent{
+    width: 568px;
+}
+.heroSection .heroContent h1{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.heroSection .heroContent p{
+    font-size:18px;
+    color: #abaeb7;
+   
+}
+.heroSection .heroLink{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 15px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    transition-duration: .5s;
+}
+.heroSection .heroLink:hover{
+    background-color: #23b7a4;
+    border:1px solid #23b7a4;
+    transition-duration: .5s;
+
+}
+/************************ُEnd heroSection************************************/
+.about .aboutLeft{
+    float: left;
+    width: 60%;
+    padding-right:68px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.about .aboutRight{
+    float: left;
+    width: 40%;
+}
+.about .aboutLeft .aboutPargraph{
+    color: #8d8f92;
+    margin-bottom: 35px;
+}
+.about ul{ margin-left: -40px;}
+.about .aboutLeft .aboytLink{
+    text-decoration:none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color:#fff;
+    background-color: #c8cdd0;
+  text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 45px;
+    transition-duration: .5s;
+    
+}
+.about .aboutLeft .aboytLink:hover{
+    background-color: #d0d5d9;
+    transition-duration: .5s;
+}
+
+.about .aboutRight .contentLeft{
+    float: left;
+    width:15%;
+} 
+.about .aboutRight .contentRight{
+    float: right;
+    width: 85%;
+}
+.about .aboutRight .Content .contentLeft{
+    margin-top: 15px;
+   
+}
+.about .aboutRight .contentLeft span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color:#fff;
+    background-color: #23b7a4;
+    line-height: 50px;
+    text-align: center;
+}
+.about .aboutRight .Content .contentRight h3{color: #292f36;}
+.about .aboutRight .Content .contentRight p{color:#cacbcc;}
+
+/***********************End About Section****************************/
+hr{
+    border-width: .7px;
+}
+/***********************start Team section*********************/
+.team .teamMemmbers{
+   width: 100%;
+}
+ .teamMemmbers .member{
+    width:25%;
+    float: left;
+    padding-left:30px;
+    box-sizing: border-box;
+}
+ .teamMemmbers .member :first-child{
+    margin-left:0px;
+}
+.team .teamMemmbers .member .memberImg{
+    margin-bottom: 0;
+}
+.team .teamMemmbers .member img{
+    width: 100%;
+}
+.team .teamMemmbers .member .memberInfo{
+    background-color: #e1e6ea;
+    padding: 20px;
+    margin-top: -4px;
+}
+.team .teamMemmbers .member .memberInfo span{
+    display: block; 
+}
+.team .teamMemmbers .member .memberInfo span.mainSpan{
+    color: #5a6066;
+    font-size: 18px;
+}
+.team .teamMemmbers .member .memberInfo span.subSban{
+    font-size: 12px;
+    color:#a6a9ac;
+    padding-top: 10px;
+}
+/********************************End Team*************************/
+/*******************************Start work***********************/
+.work{
+    background-color: #3a454d;
+}
+.work h2,
+.feature h2{
+    color: #fff;
+    margin-bottom: 30px;
+   
+}
+ .workImg{
+    width: 100%;
+}
+ .workImg .workSample{
+    float: left;
+    width:33.33%;
+    padding-left:30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+ .workImg .workSample :first-child{
+    padding-left: 0;
+}
+ .workImg .workSample img{
+    width:100%;
+}
+
+.worklink{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    width: 150px;
+}
+
+/**************************Start SERVICES section**********************/
+.services{
+    text-align: center;
+}
+.services h2{
+    text-align: left;
+    margin: 0;
+    margin-left: 30px;
+}
+.services .member{
+margin-top: 50px;
+}
+.services .member i{
+    color:#23b7a4;
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.services .member h3{
+    font-weight: normal;
+    color:#62666c;
+}
+.services .member p{color:#abadaf;}
+/************************End SERVICES section*********************/
+/************************Start Feature Section*******************/
+/************************End Feature Section*******************/
+.feature{
+    background-color: #3a454d;
+    color: #a3a8ac;
+}
+.feature h3{ font-weight: normal;}
+.feature p{ line-height:20px;}
+/******************touch****************/
+.touch {position: relative;}
+ .continer .rwo .left{
+    float: left;
+    width: 50%;
+    /*padding-right: 75px;*/
+    box-sizing: border-box;
+}
+ .continer .rwo .left :last-child{
+    padding-right: 0;
+}
+ .continer .rwo .right{
+    float: left;
+   max-width: 50%;
+}
+.touch .continer .rwo{
+    padding-top: 50px;
+}
+.touch .continer .left h3{ padding-bottom: 35px;}
+.touch .continer .left p{  color: #cacbcc;}
+.touch form{
+   background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.touch form label{
+    display: block;
+    padding-bottom: 10px;
+    color:#959699;
+    font-size: 20px;
+}
+.touch form input{
+    display: block;
+    border:none;
+    outline: none;
+    margin-bottom: 30px;
+}
+.touch form input.in{
+    width: 239px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #eaeef1;
+  
+}
+.touch form textarea{
+    width:500px;
+    height: 157px;
+    background-color: #eaeef1;
+    border:none;
+    outline: none;
+    resize: none;
+}
+.touch form input[type='submit']{
+    background-color: #23b7a4;
+    width: 175px;
+    height: 54px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: .5s;
+
+}
+.touch form input[type='submit']:hover{
+    background-color: #1c9484;
+    transition-duration: .5s;
+}
+.touch .divForm{
+    position: absolute;
+    top:290px;
+    left:995px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/********************************Start footer**************/
+.footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1d2126;
+    color:#fff;
+    
+}
+.footer .left span{
+    display: inline-block;
+    margin-top: 20px;
+}
+.footer .right ul{
+text-align: right;
+padding-left: 380px;
+}
+.footer .right li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 25px;
+    
+}
+.footer .right li a:hover{
+    color: #1c9484;
+    transition-duration: .5s;
+}
+
+
